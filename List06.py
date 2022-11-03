@@ -15,7 +15,7 @@ def main(list1):
             ls += list1[i]
         else:
             
-            ls +=[0]
+            ls +=[list1[i]]
         i +=1
     return ls
 print(main([1,1,0,1,1]))
