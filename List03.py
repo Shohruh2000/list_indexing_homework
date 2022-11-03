@@ -7,4 +7,6 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    return
+    list3 = list1 + list2
+    return list3
+print(main([1,"x",3],["z",5,6]))
