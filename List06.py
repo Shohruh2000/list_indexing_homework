@@ -14,8 +14,8 @@ def main(list1):
             list1[i]=["True"]
             ls += list1[i]
         else:
-            list1[i]=[0]
-            ls +=list1[i]
+            
+            ls +=[0]
         i +=1
     return ls
 print(main([1,1,0,1,1]))
