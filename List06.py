@@ -6,11 +6,9 @@ def main(list1):
     Returns:
         list: return answer
     """
-    ls = []
-    
+    ls = [ ]
     i = 0
-    
-    
+
     while i < len(list1):
         if list1[i]==1:
             list1[i]=["True"]
@@ -20,4 +18,4 @@ def main(list1):
             ls +=list1[i]
         i +=1
     return ls
-print(main([1,1,0,1]))
+print(main([1,1,0,1,1]))
