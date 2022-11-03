@@ -6,4 +6,12 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    s = 0
+    while i < len(list1):
+        if i == 0:
+            s +=list1[i]
+        i +=1
+        return s
+print(main([1,2,3,4,5]))
+    
